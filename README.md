@@ -6,11 +6,12 @@ Resolvedor de fórmulas matemáticas
 
 Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
-### :gem: Stack
+### 🛠️ Stack
 
-- Gulp - SASS/JS
 - HTML
+- SASS
 - Javascript - resolvedor utilizando essa tech
+- Gulp - compilador de CSS/JS
 
 ## :star: Fórmulas
 
@@ -42,3 +43,7 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 ## :woman: Author
 
 [@laisfrigerio](https://github.com/laisfrigerio/)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details

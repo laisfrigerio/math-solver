@@ -1,0 +1,27 @@
+{
+  "name": "math-solver",
+  "version": "0.1.0",
+  "description": "Reunir em um único site um solucionador de várias fórmulas matemáticas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisfrigerio/math-solver.git"
+  },
+  "keywords": [
+    "math",
+    "solver",
+    "javascript",
+    "js"
+  ],
+  "author": "Lais Frigerio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laisfrigerio/math-solver/issues"
+  },
+  "homepage": "https://github.com/laisfrigerio/math-solver#README",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
