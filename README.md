@@ -10,17 +10,17 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
 ### Área de Figuras Planas
 
-- [] Retângulo
-- [] Quadrado
-- [] Triângulo
-- [] Círculo
-- [] Losango
-- [] Trapézio
-- [] Paralelograma
+- :black_square_button: Retângulo
+- :black_square_button: Quadrado
+- :black_square_button: Triângulo
+- :black_square_button: Círculo
+- :black_square_button: Losango
+- :black_square_button: Trapézio
+- :black_square_button: Paralelograma
 
 ### Circuferências
 
-- [] Comprimento
+- :black_square_button: Comprimento
 
 ### Função de primeiro grau
 
@@ -28,8 +28,8 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
 ### Juros
 
-- [] Simple
-- [] Composto
+- :black_square_button: Simple
+- :black_square_button: Composto
 
 ### Matrizes
 
