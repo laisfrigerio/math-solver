@@ -35,7 +35,7 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
 ### Juros
 
-- :black_square_button: Simple
+- :black_square_button: Simples
 - :black_square_button: Composto
 
 ### Matrizes
