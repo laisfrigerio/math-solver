@@ -2,13 +2,13 @@
 
 Resolvedor de fórmulas matemáticas
 
-## Objetivo
+## :up: Objetivo
 
 Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
-## Fórmulas
+## :star: Fórmulas
 
-### Área de Figuras Planas
+### :arrow_right_hook: Área de Figuras Planas
 
 - :black_square_button: Retângulo
 - :black_square_button: Quadrado
@@ -18,21 +18,21 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 - :black_square_button: Trapézio
 - :black_square_button: Paralelograma
 
-### Circuferências
+### :arrow_right_hook: Circuferências
 
 - :black_square_button: Comprimento
 
-### Função de primeiro grau
+### :arrow_right_hook: Função de primeiro grau
 
-### Função de segundo grau
+### :arrow_right_hook: Função de segundo grau
 
-### Juros
+### :arrow_right_hook: Juros
 
 - :black_square_button: Simple
 - :black_square_button: Composto
 
-### Matrizes
+### :arrow_right_hook: Matrizes
 
-## :muscle: Author
+## :woman: Author
 
 [@laisfrigerio](https://github.com/laisfrigerio/)
