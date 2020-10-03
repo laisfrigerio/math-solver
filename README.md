@@ -14,7 +14,7 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
 ## :star: Fórmulas
 
-### :arrow_right_hook: Área de Figuras Planas
+### Área de Figuras Planas
 
 - :black_square_button: Retângulo
 - :black_square_button: Quadrado
@@ -24,20 +24,20 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 - :black_square_button: Trapézio
 - :black_square_button: Paralelograma
 
-### :arrow_right_hook: Circuferências
+### Circuferências
 
 - :black_square_button: Comprimento
 
-### :arrow_right_hook: Função de primeiro grau
+### Função de primeiro grau
 
-### :arrow_right_hook: Função de segundo grau
+### Função de segundo grau
 
-### :arrow_right_hook: Juros
+### Juros
 
 - :black_square_button: Simple
 - :black_square_button: Composto
 
-### :arrow_right_hook: Matrizes
+### Matrizes
 
 ## :woman: Author
 
