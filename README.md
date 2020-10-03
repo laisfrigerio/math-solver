@@ -6,6 +6,12 @@ Resolvedor de fórmulas matemáticas
 
 Reunir em um único site um solucionador de várias fórmulas matemáticas.
 
+### :gem: Stack
+
+- Gulp - SASS/JS
+- HTML
+- Javascript - resolvedor utilizando essa tech
+
 ## :star: Fórmulas
 
 ### :arrow_right_hook: Área de Figuras Planas
