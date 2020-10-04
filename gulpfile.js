@@ -20,6 +20,12 @@ function clear() {
     return del(['public']);
 }
 
+function cleanCompiled(){
+    return del([
+        'public/css/compiled',
+    ]);
+}
+
 function scripts() {
     return gulp.src(paths.scripts.src)
         .pipe(babel({
@@ -36,6 +42,12 @@ function styles() {
         .pipe(gulp.dest(paths.styles.dest));
 }
 
+function compileCss() {
+    return gulp.src('resources/styles/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('public/css/compiled/'));
+}
+
 function watch() {
     gulp.watch(paths.scripts.src, scripts);
     gulp.watch(paths.styles.src, styles);
@@ -45,7 +57,9 @@ const build = gulp.series(clear, gulp.parallel(styles, scripts));
 
 exports.build = build
 exports.clear = clear
+exports.cleanCompiled = cleanCompiled
 exports.scripts = scripts
 exports.styles = styles
+exports.compileCss = compileCss
 exports.watch = watch;
 exports.default = build;
