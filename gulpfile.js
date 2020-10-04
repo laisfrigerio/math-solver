@@ -20,6 +20,12 @@ function clear() {
     return del(['public']);
 }
 
+function cleanCompiled(){
+    return del([
+        'public/css/compiled',
+    ]);
+}
+
 function scripts() {
     return gulp.src(paths.scripts.src)
         .pipe(babel({
