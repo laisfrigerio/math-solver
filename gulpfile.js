@@ -57,7 +57,9 @@ const build = gulp.series(clear, gulp.parallel(styles, scripts));
 
 exports.build = build
 exports.clear = clear
+exports.cleanCompiled = cleanCompiled
 exports.scripts = scripts
 exports.styles = styles
+exports.compileCss = compileCss
 exports.watch = watch;
 exports.default = build;
