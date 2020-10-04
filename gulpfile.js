@@ -36,6 +36,12 @@ function styles() {
         .pipe(gulp.dest(paths.styles.dest));
 }
 
+function compileCss() {
+    return gulp.src('resources/styles/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('public/css/compiled/'));
+}
+
 function watch() {
     gulp.watch(paths.scripts.src, scripts);
     gulp.watch(paths.styles.src, styles);
