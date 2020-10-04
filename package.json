@@ -5,9 +5,10 @@
   "scripts": {
     "watch": "gulp watch",
     "build": "gulp",
-    "styles":  "gulp styles",
+    "styles": "gulp styles",
     "compileCss": "gulp compileCss",
-    "cleanCompiled": "gulp cleanCompiled"
+    "cleanCompiled": "gulp cleanCompiled",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,12 +29,14 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "jest": "^26.4.2"
   }
 }
