@@ -16,6 +16,10 @@ const paths = {
     }
 };
 
+function clear() {
+    return del(['public']);
+}
+
 function scripts() {
     return gulp.src(paths.scripts.src)
         .pipe(babel({
@@ -37,9 +41,10 @@ function watch() {
     gulp.watch(paths.styles.src, styles);
 }
 
-const build = gulp.series(gulp.parallel(styles, scripts));
+const build = gulp.series(clear, gulp.parallel(styles, scripts));
 
 exports.build = build
+exports.clear = clear
 exports.scripts = scripts
 exports.styles = styles
 exports.watch = watch;
