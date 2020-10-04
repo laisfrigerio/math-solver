@@ -1,0 +1,1 @@
+"use strict";var number=1909;console.log("number = ".concat(number));
