@@ -13,6 +13,12 @@ Reunir em um único site um solucionador de várias fórmulas matemáticas.
 - Javascript - resolvedor utilizando essa tech
 - Gulp - compilador de CSS/JS
 
+### Run
+
+- `npm install`
+- `npm run watch` para escutar alterações nos arquivos css/js
+- `npm run build`
+
 ## :star: Fórmulas
 
 ### Área de Figuras Planas
