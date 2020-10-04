@@ -4,7 +4,10 @@
   "description": "Reunir em um único site um solucionador de várias fórmulas matemáticas",
   "scripts": {
     "watch": "gulp watch",
-    "build": "gulp"
+    "build": "gulp",
+    "styles":  "gulp styles",
+    "compileCss": "gulp compileCss",
+    "cleanCompiled": "gulp cleanCompiled"
   },
   "repository": {
     "type": "git",
