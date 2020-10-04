@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Reunir em um único site um solucionador de várias fórmulas matemáticas",
   "scripts": {
-    "dev": "gulp",
+    "watch": "gulp watch",
     "build": "gulp"
   },
   "repository": {

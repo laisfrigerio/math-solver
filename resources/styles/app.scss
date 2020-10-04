@@ -1,0 +1,70 @@
+@import 'reset';
+@import 'variables/colors';
+@import 'variables/mixin';
+@import 'components/header';
+
+body {
+  background-color: $background;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 70px;
+  section {
+
+    &.under-construction,
+    &.introduce {
+      > div {
+        @extend %align-items-center;
+        @extend %flex;
+        @extend %flex-direction-column;
+        @extend %flex-justify-center;
+      }
+    }
+
+    &.introduce {
+      h1 {
+        color: $font-color-light;
+        font-size: 40px;
+        margin: 50px 0 5px 0;
+      }
+
+      h2 {
+        color: $link-color;
+        font-size: 20px;
+      }
+    }
+
+    &.under-construction {
+      margin: 50px 0 15px 0;
+      h3 {
+        color: $font-color-light;
+        margin-bottom: 15px;
+      }
+      .dots {
+        @extend %flex;
+        span {
+          &.circle {
+            border-radius: 50%;
+            height: 30px;
+            margin-right: 10px;
+            width: 30px;
+          }
+          &.circle:nth-child(1) {
+            background-color: $nav-bar-color;
+          }
+          &.circle:nth-child(2) {
+            background-color: $link-color;
+          }
+          &.circle:nth-child(3) {
+            background-color: $link-color-darker;
+          }
+        }
+      }
+    }
+  }
+}
