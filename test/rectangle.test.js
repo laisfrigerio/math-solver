@@ -1,4 +1,4 @@
-import Rectangle from '../resources/scripts/shapes/square';
+import Rectangle from '../resources/scripts/shapes/rectangle';
 
 test('rectangle area 3 x 2', () => {
     const rectangle = new Rectangle(3, 2);
