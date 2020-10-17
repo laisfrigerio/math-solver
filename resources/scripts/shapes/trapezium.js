@@ -6,8 +6,7 @@ class Trapezium {
     }
 
     calculateArea() {
-        return ((this.baseA + this.baseB) * this.heigth) / 2;  
-         
+        return ((this.baseA + this.baseB) * this.heigth) / 2;           
     }
 }
 
